@@ -108,7 +108,7 @@ namespace PRIMER_PROYECTO_UAM
             return result;
         }
 
-        public List<RutasBE> Eliminaruta()
+        public List<RutasBE> Eliminarut()
         {
             RutasBE rutasBE;
             List<RutasBE> listaResult = new List<RutasBE>();

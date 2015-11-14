@@ -184,3 +184,23 @@ C:\Users\Luis1990\Desktop\RESPALDO DEL PROYECTO\respaldo 9\PRIMER_PROYECTO_UAM-2
 C:\Users\Luis1990\Desktop\RESPALDO DEL PROYECTO\respaldo 9\PRIMER_PROYECTO_UAM-2\PRIMER_PROYECTO_UAM\obj\Debug\PRIMER_PROYECTO_UAM.Solicitud_servicio.resources
 C:\Users\Luis1990\Desktop\RESPALDO DEL PROYECTO\respaldo 9\PRIMER_PROYECTO_UAM-2\PRIMER_PROYECTO_UAM\obj\Debug\PRIMER_PROYECTO_UAM.Ver_Eliminar.resources
 C:\Users\Luis1990\Desktop\RESPALDO DEL PROYECTO\respaldo 9\PRIMER_PROYECTO_UAM-2\PRIMER_PROYECTO_UAM\obj\Debug\PRIMER_PROYECTO_UAM.csproj.GenerateResource.Cache
+C:\Users\Michael\Desktop\xxxxxxxxxxxxxxxxxx\respaldo 9\PRIMER_PROYECTO_UAM-2\PRIMER_PROYECTO_UAM\bin\Debug\PRIMER_PROYECTO_UAM.exe.config
+C:\Users\Michael\Desktop\xxxxxxxxxxxxxxxxxx\respaldo 9\PRIMER_PROYECTO_UAM-2\PRIMER_PROYECTO_UAM\obj\Debug\PRIMER_PROYECTO_UAM.exe
+C:\Users\Michael\Desktop\xxxxxxxxxxxxxxxxxx\respaldo 9\PRIMER_PROYECTO_UAM-2\PRIMER_PROYECTO_UAM\obj\Debug\PRIMER_PROYECTO_UAM.pdb
+C:\Users\Michael\Desktop\xxxxxxxxxxxxxxxxxx\respaldo 9\PRIMER_PROYECTO_UAM-2\PRIMER_PROYECTO_UAM\bin\Debug\PRIMER_PROYECTO_UAM.exe
+C:\Users\Michael\Desktop\xxxxxxxxxxxxxxxxxx\respaldo 9\PRIMER_PROYECTO_UAM-2\PRIMER_PROYECTO_UAM\bin\Debug\PRIMER_PROYECTO_UAM.pdb
+C:\Users\Michael\Desktop\xxxxxxxxxxxxxxxxxx\respaldo 9\PRIMER_PROYECTO_UAM-2\PRIMER_PROYECTO_UAM\obj\Debug\PRIMER_PROYECTO_UAM.csprojResolveAssemblyReference.cache
+C:\Users\Michael\Desktop\xxxxxxxxxxxxxxxxxx\respaldo 9\PRIMER_PROYECTO_UAM-2\PRIMER_PROYECTO_UAM\obj\Debug\PRIMER_PROYECTO_UAM.Agrega_Conductor.resources
+C:\Users\Michael\Desktop\xxxxxxxxxxxxxxxxxx\respaldo 9\PRIMER_PROYECTO_UAM-2\PRIMER_PROYECTO_UAM\obj\Debug\PRIMER_PROYECTO_UAM.Agrega_Ruta.resources
+C:\Users\Michael\Desktop\xxxxxxxxxxxxxxxxxx\respaldo 9\PRIMER_PROYECTO_UAM-2\PRIMER_PROYECTO_UAM\obj\Debug\PRIMER_PROYECTO_UAM.BuscarConductores.resources
+C:\Users\Michael\Desktop\xxxxxxxxxxxxxxxxxx\respaldo 9\PRIMER_PROYECTO_UAM-2\PRIMER_PROYECTO_UAM\obj\Debug\PRIMER_PROYECTO_UAM.Consultar.resources
+C:\Users\Michael\Desktop\xxxxxxxxxxxxxxxxxx\respaldo 9\PRIMER_PROYECTO_UAM-2\PRIMER_PROYECTO_UAM\obj\Debug\PRIMER_PROYECTO_UAM.Elimina_Conductor.resources
+C:\Users\Michael\Desktop\xxxxxxxxxxxxxxxxxx\respaldo 9\PRIMER_PROYECTO_UAM-2\PRIMER_PROYECTO_UAM\obj\Debug\PRIMER_PROYECTO_UAM.Elimina_Ruta.resources
+C:\Users\Michael\Desktop\xxxxxxxxxxxxxxxxxx\respaldo 9\PRIMER_PROYECTO_UAM-2\PRIMER_PROYECTO_UAM\obj\Debug\PRIMER_PROYECTO_UAM.Form1.resources
+C:\Users\Michael\Desktop\xxxxxxxxxxxxxxxxxx\respaldo 9\PRIMER_PROYECTO_UAM-2\PRIMER_PROYECTO_UAM\obj\Debug\PRIMER_PROYECTO_UAM.ListaSolicitudes.resources
+C:\Users\Michael\Desktop\xxxxxxxxxxxxxxxxxx\respaldo 9\PRIMER_PROYECTO_UAM-2\PRIMER_PROYECTO_UAM\obj\Debug\PRIMER_PROYECTO_UAM.Monto_Conductores.resources
+C:\Users\Michael\Desktop\xxxxxxxxxxxxxxxxxx\respaldo 9\PRIMER_PROYECTO_UAM-2\PRIMER_PROYECTO_UAM\obj\Debug\PRIMER_PROYECTO_UAM.Principal.resources
+C:\Users\Michael\Desktop\xxxxxxxxxxxxxxxxxx\respaldo 9\PRIMER_PROYECTO_UAM-2\PRIMER_PROYECTO_UAM\obj\Debug\PRIMER_PROYECTO_UAM.Properties.Resources.resources
+C:\Users\Michael\Desktop\xxxxxxxxxxxxxxxxxx\respaldo 9\PRIMER_PROYECTO_UAM-2\PRIMER_PROYECTO_UAM\obj\Debug\PRIMER_PROYECTO_UAM.Solicitud_servicio.resources
+C:\Users\Michael\Desktop\xxxxxxxxxxxxxxxxxx\respaldo 9\PRIMER_PROYECTO_UAM-2\PRIMER_PROYECTO_UAM\obj\Debug\PRIMER_PROYECTO_UAM.Ver_Eliminar.resources
+C:\Users\Michael\Desktop\xxxxxxxxxxxxxxxxxx\respaldo 9\PRIMER_PROYECTO_UAM-2\PRIMER_PROYECTO_UAM\obj\Debug\PRIMER_PROYECTO_UAM.csproj.GenerateResource.Cache
