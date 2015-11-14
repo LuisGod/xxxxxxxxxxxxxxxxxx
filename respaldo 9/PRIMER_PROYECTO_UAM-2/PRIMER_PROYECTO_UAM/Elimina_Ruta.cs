@@ -22,7 +22,7 @@ namespace PRIMER_PROYECTO_UAM
             bool result;
 
             RutasBE rutasbe = new RutasBE();
-           
+            rutasbe.Ruta = textBoxRutDesac.Text;
             RutasController controler = new RutasController();
 
             if (result = controler.EliminaRuta(rutasbe))

@@ -18,7 +18,7 @@ namespace PRIMER_PROYECTO_UAM
         }
 
         private void btnver_Click(object sender, EventArgs e)
-        {
+        {        //este metodo me muetras los datos de servicio en un data griew
             SolicitudController controller = new SolicitudController();
             List<SolicitudBE> listData = controller.VER_SERVICIOS();
 

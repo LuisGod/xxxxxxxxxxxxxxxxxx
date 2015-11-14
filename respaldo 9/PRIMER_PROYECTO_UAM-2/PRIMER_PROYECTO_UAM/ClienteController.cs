@@ -25,7 +25,7 @@ namespace PRIMER_PROYECTO_UAM
 
 
         public void listarclientes(DataGridView data)
-        {
+        {     //metodo muestra los datos el la databriew de eliminar
             Conexion myconexion = new Conexion();
             SqlConnection conexion = myconexion.CreateConnection();
 
@@ -106,49 +106,49 @@ namespace PRIMER_PROYECTO_UAM
             }
 
         }
-         ////////////
-        public void ActualizarGrid(DataGridView dg, String Query)
-        {
-            Conexion myconexion = new Conexion();
-            SqlConnection conexion = myconexion.CreateConnection();
-            //SqlCommand comando = myconexion.CreateCommand(conexion);
-            //SqlConnection miconexion = new SqlConnection(Conexion.conexion);
-            conexion.Open();
+         
+        //public void ActualizarGrid(DataGridView dg, String Query)
+        //{
+        //    //Conexion myconexion = new Conexion();
+        //    //SqlConnection conexion = myconexion.CreateConnection();
+        //    ////SqlCommand comando = myconexion.CreateCommand(conexion);
+        //    ////SqlConnection miconexion = new SqlConnection(Conexion.conexion);
+        //    //conexion.Open();
 
-            //crear DataSet
-            System.Data.DataSet MiDataSet = new System.Data.DataSet();
+        //    ////crear DataSet
+        //    //System.Data.DataSet MiDataSet = new System.Data.DataSet();
 
-            //Crear Adaptador de datos
-            SqlDataAdapter MiDataAdapter = new SqlDataAdapter(Query, conexion);
+        //    ////Crear Adaptador de datos
+        //    //SqlDataAdapter MiDataAdapter = new SqlDataAdapter(Query, conexion);
 
-            //LLenar el DataSet
-            MiDataAdapter.Fill(MiDataSet, "CLIENTE");
+        //    ////LLenar el DataSet
+        //    //MiDataAdapter.Fill(MiDataSet, "CLIENTE");
 
-            //Asignarle el valor adecuado a las propiedades del DataGrid
-            dg.DataSource = MiDataSet;
-            dg.DataMember = "CLIENTE";
+        //    ////Asignarle el valor adecuado a las propiedades del DataGrid
+        //    //dg.DataSource = MiDataSet;
+        //    //dg.DataMember = "CLIENTE";
 
-            //nos desconectamos de la base de datos...
-            conexion.Close();
-        }
+        //    ////nos desconectamos de la base de datos...
+        //    //conexion.Close();
+        //}
 
-        ///////////////////
-        public void EjecutarSql(String Query)
-        {
-            Conexion conexion = new Conexion();
-            SqlConnection MiConexion = conexion.CreateConnection();
-            SqlCommand MiComando = new SqlCommand(Query, MiConexion);
+        /////////////////////
+        //public void EjecutarSql(String Query)  {
+        ////{
+        ////    Conexion conexion = new Conexion();
+        ////    SqlConnection MiConexion = conexion.CreateConnection();
+        ////    SqlCommand MiComando = new SqlCommand(Query, MiConexion);
             
 
-            //ejecutamos la consulta (query) sql...
-            int FilasAfectadas = MiComando.ExecuteNonQuery();
+        ////    //ejecutamos la consulta (query) sql...
+        ////    int FilasAfectadas = MiComando.ExecuteNonQuery();
 
-            if (FilasAfectadas > 0)
-                MessageBox.Show("Operación realizada exitosamente", "la base de datos ha sido modificada", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            else
+        ////    if (FilasAfectadas > 0)
+        ////        MessageBox.Show("Operación realizada exitosamente", "la base de datos ha sido modificada", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        ////    else
 
-                MessageBox.Show("No se pudo realizar la modificación de la base de datos :-(", "Error del sistema", MessageBoxButtons.OK, MessageBoxIcon.Error);
-        }
+        ////        MessageBox.Show("No se pudo realizar la modificación de la base de datos :-(", "Error del sistema", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        //}
 
 
     }

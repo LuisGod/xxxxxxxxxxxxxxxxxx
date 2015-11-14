@@ -19,7 +19,7 @@ namespace PRIMER_PROYECTO_UAM
         }
 
         private void Solicitud_servicio_Load(object sender, EventArgs e)
-        {
+        {       //este parte de codigo se encarga de mostrar  las rutas ingresadas en un combobox
             List<RutasBE> listaP = new List<RutasBE>();
             RutasController rutacontrola = new RutasController();
             listaP = rutacontrola.VER_RUTA();
@@ -33,7 +33,7 @@ namespace PRIMER_PROYECTO_UAM
 
         }
 
-        public void calculo() {
+        public void calculo() {   //realiza el calculo para el vuelto del cliente
 
            
             
@@ -57,7 +57,7 @@ namespace PRIMER_PROYECTO_UAM
         
         
 
-        public void calculodolares() {
+        public void calculodolares() {    //realiza el calculo en dolares
             if (txtpagacliente.Text == "")
             { MessageBox.Show("!!!Complete todos los campos!!!"); }
             else
@@ -77,6 +77,7 @@ namespace PRIMER_PROYECTO_UAM
         }
 
         public void calcular() {
+            //este codigo me muestra el monto a cobrar por la ruta en el textbox ademas muestra la cantida en col y $
             Conexion myconexion = new Conexion();
             SqlConnection conexion = myconexion.CreateConnection();
             string sql = "Select *from RUTAS where RUTA='" + cmbruta.Text + "'";
@@ -99,18 +100,18 @@ namespace PRIMER_PROYECTO_UAM
 
                
             }
-            else
-            {
-                MessageBox.Show("No se encontro al conductor");
+            //else
+            //{
+            //    MessageBox.Show("No se encontro al conductor");
 
-                
-            }
+
+            //}
             conexion.Close();
             
         
         
         }
-        public void verconductor() {
+        public void verconductor() {//busca los datos del conductor de acuerdo a la cedula ingresada
             Conexion myconexion = new Conexion();
             SqlConnection conexion = myconexion.CreateConnection();
             string sql = "Select *from Conductor where DNI='" + txtcedulacond.Text + "'";
@@ -143,7 +144,7 @@ namespace PRIMER_PROYECTO_UAM
         
         }
 
-        private void vercliente() {
+        private void vercliente() {  //busca los datos del conductor de acuerdo a la cedula ingresada
             Conexion myconexion = new Conexion();
             SqlConnection conexion = myconexion.CreateConnection();
             string sql = "Select *from CLIENTE where DNI='" + txtcedulacliente.Text + "'";
@@ -201,6 +202,7 @@ namespace PRIMER_PROYECTO_UAM
 
         private void btnservicio_Click(object sender, EventArgs e)
         {
+            //almacena los datos de servicio 
             bool result;
             SolicitudBE  ing_solicitud= new SolicitudBE();
             ing_solicitud.NOMBRE_CONDUCTOR = txtnombrecond.Text;

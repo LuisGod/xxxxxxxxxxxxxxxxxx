@@ -43,7 +43,7 @@ namespace PRIMER_PROYECTO_UAM
         //    return pConductor;
 
         //}
-
+            //metodo para almcenar la informacion del servicio
         public bool REGISTRAR_SERVICIO(SolicitudBE solicitud)
         {
             bool result = false;
@@ -81,7 +81,7 @@ namespace PRIMER_PROYECTO_UAM
         }
 
 
-        public List<SolicitudBE> VER_SERVICIOS()
+        public List<SolicitudBE> VER_SERVICIOS()  //lista para poder visualizar los servicios
         {
             List<SolicitudBE> listResult = new List<SolicitudBE>();
             try

@@ -84,6 +84,12 @@ namespace PRIMER_PROYECTO_UAM
 
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Caracteristicas_Rutas frmrutas = new Caracteristicas_Rutas();
+            frmrutas.ShowDialog();
+        }
+
         }
     }
 

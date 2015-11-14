@@ -53,7 +53,7 @@ namespace PRIMER_PROYECTO_UAM
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+               //excepciones para validar el ingreso de datos
             if (txtnombre.Text == "")
             {
                 MessageBox.Show("Digite un Nombre para Continuar");
@@ -84,12 +84,12 @@ namespace PRIMER_PROYECTO_UAM
 
             else
             {
-                REGISTRARCLIENTE();
+                REGISTRARCLIENTE();    //llama al metodo registrar cliente
 
             }
         }
 
-                //almacenar////////////////////////////////////////////////////////7
+        //metodo para almacenar la informacion del cliente
         public bool  REGISTRARCLIENTE()
         {
            ClienteBE  REGISTRAR_CLIENTE = new ClienteBE();
@@ -101,13 +101,13 @@ namespace PRIMER_PROYECTO_UAM
                     SqlConnection conexion = myconexion.CreateConnection();
                     SqlCommand comando = myconexion.CreateCommand(conexion);
 
-                    //pasos
+                    //pasos para almacenar la foto
                     FileStream stream = new FileStream(txtexaminar.Text, FileMode.Open, FileAccess.Read);
                     //Se inicailiza un flujo de archivo con la imagen seleccionada desde el disco.
                     BinaryReader br = new BinaryReader(stream);
                     FileInfo fi = new FileInfo(txtexaminar.Text);
 
-                    //Se inicializa un arreglo de Bytes del tamaño de la imagen
+                    //Se crea un arreglo para almacenar la foto
                     byte[] binData = new byte[stream.Length];
                     //Se almacena en el arreglo de bytes la informacion que se obtiene del flujo de archivos(foto)
                     //Lee el bloque de bytes del flujo y escribe los datos en un búfer dado.
@@ -121,7 +121,7 @@ namespace PRIMER_PROYECTO_UAM
                     conexion.Open();
                     comando.CommandText = "REGISTRAR_CLIENTE";
                     comando.CommandType = CommandType.StoredProcedure;
-                    comando.Parameters.AddWithValue("@NOMBRES",txtnombre.Text.ToString());    //;
+                    comando.Parameters.AddWithValue("@NOMBRES",txtnombre.Text.ToString()); 
                     comando.Parameters.AddWithValue("@APELLIDOS", txtapellido.Text.ToString());
                     comando.Parameters.AddWithValue("@DNI", txtcedula.Text.ToString());
                     comando.Parameters.AddWithValue("@EDAD", numedad.Text.ToString());
@@ -155,7 +155,7 @@ namespace PRIMER_PROYECTO_UAM
         }
             
         
-
+          //esta parte de codigo se encarga de abrir tlo que tenemos en el ordenador
         private void btnbuscarfoto_Click(object sender, EventArgs e)
         {
             examinar.Filter = "image files|*.jpg;*.png;*.gif;*.ico;.*;";

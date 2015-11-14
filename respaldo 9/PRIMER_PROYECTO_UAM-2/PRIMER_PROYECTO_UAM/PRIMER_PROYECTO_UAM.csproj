@@ -62,6 +62,12 @@
     <Compile Include="BuscarConductores.Designer.cs">
       <DependentUpon>BuscarConductores.cs</DependentUpon>
     </Compile>
+    <Compile Include="Caracteristicas Rutas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Caracteristicas Rutas.Designer.cs">
+      <DependentUpon>Caracteristicas Rutas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Elimina_Ruta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -147,6 +153,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="BuscarConductores.resx">
       <DependentUpon>BuscarConductores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Caracteristicas Rutas.resx">
+      <DependentUpon>Caracteristicas Rutas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Consultar.resx">
       <DependentUpon>Consultar.cs</DependentUpon>
